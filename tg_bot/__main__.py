@@ -33,25 +33,23 @@ Want to add me to your group? [Click here](https://telegram.me/Jannatzubair_Bot?
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
-
-*Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /donate: To find out more about donating!
+Hey there! My name is Jannat.
+I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+the things I can help you with.
+*Main* commands available:
+ - /start: start the bot
+ - /help: More Options.
+ - /donate: information about how to donate!
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
-   - in a group:
-
+   - in PM: will send you your settings for all supported modules.
+   - in a group: will redirect you to pm, with all that chat's settings.
 {}
 And the following:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
+""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+If you want to donate, PM [SUPERMAN❤️](t.me/ENAMYH), and ask for donate. \
+If you really want to donate, it could really help me to upgrade my VPS."""
 
 IMPORTED = {}
 MIGRATEABLE = []
