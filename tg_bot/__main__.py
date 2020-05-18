@@ -17,20 +17,17 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+PM_START_TEXT = """Click /help button to find out more about how to use me to my full potential.
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
+[Source](https://github.com/moinres/jannatbot)
 
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
+Join [Jannat Bot Help Group](https://t.me/jannatsupport) if you need any support or help.
 
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
+Follow [Jannat Bot News Channel](https://t.me/jannatupdates) if you want to keep updated with the news, updates and bot downtime!!
 
-For more commands click /help...
+Maintained by [SUPERMAN❤️.](https://telegram.me/enamyh)
 
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
-
+Want to add me to your group? [Click here](https://telegram.me/Jannatzubair_Bot?startgroup=add)
 """
 
 HELP_STRINGS = """
