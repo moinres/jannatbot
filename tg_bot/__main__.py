@@ -17,7 +17,8 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """Click /help button to find out more about how to use me to my full potential.
+PM_START_TEXT = """Hey there! My name is Jannat - I'm here to help you manage your groups!!
+Click /help button to find out more about how to use me to my full potential.
 
 [Source](https://github.com/moinres/jannatbot)
 
