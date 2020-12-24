@@ -20,7 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """Hey there! My name is Jannat - I'm here to help you manage your groups!!
 Click /help button to find out more about how to use me to my full potential.
 
-[Source](https://github.com/moinres/jannatbot)
+[Source](https://telegram.me/enamyh)
 
 Join [Jannat Bot Help Group](https://t.me/jannatsupport) if you need any support or help.
 
